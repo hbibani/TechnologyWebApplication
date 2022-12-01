@@ -1,0 +1,4 @@
+SELECT orderID, orderDate, shippingDate, staffName
+FROM purchase, staff
+inner join staff ON purchase.StaffID = staff.staffID
+WHERE  staffID = $staffid

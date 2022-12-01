@@ -1,0 +1,189 @@
+/* Heja Bibani
+Student ID: 16301173
+Class: Tues 4:00 pm */
+
+/*a , b , c, d, e, f, g */
+html
+{
+
+    background-color:white;
+    font-family: 'Raleway', Verdana, Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid 1px;
+    border-color: #172457;
+    border-radius: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom:25px;
+}
+
+
+/*h*/
+h1
+{
+   font-size:220%;
+   color:  #172457;
+   text-align:center;
+}
+
+/* i */
+h2
+{
+   font-size: 160%;
+   font-family: Georgia;
+   color: #7B85AD;
+   text-transform: capitalize;
+}
+
+/* j */
+h3
+{
+    font-size: 120%;
+    font-family: Georgia;
+    color:gray;
+}
+
+/* k */
+p, ul, ol
+{
+    line-height:1.5;
+}
+
+
+/* l - justification */
+p
+{
+    text-align:justify;
+}
+
+/* m */
+ol > li
+{
+    padding-right: 15px;
+    padding-left:  15px;
+}
+
+/*n*/
+.figureSal
+{
+    width:744px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* o */
+.subfigure
+{
+    width:250px;
+    float:right;
+    padding-bottom:10px;
+    padding-left:15px;
+    margin-top:0px;
+    margin-right:0px;
+}
+
+/*p*/
+figcaption
+{
+    text-align: justify;
+    padding-bottom:15px;
+    font-size: 70%;
+    font-style: italic;
+}
+
+/*p*/
+.theothercaps
+{
+    border-bottom: solid 1px;
+}
+
+/*r*/
+nav
+{
+    background-color: #172457;
+    font-size: 120%;
+    border-radius: 5px;
+    display:block;
+}
+
+/*s*/
+nav:hover
+{
+    background-color: #7B85AD;
+}
+
+/*t*/ /*s*/
+nav > a
+{
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    display:inline-block;
+}
+
+
+
+/*u*/
+footer > a
+{
+    color : black;
+    font-style:italic;
+}
+
+/*u*/
+footer > a:visited
+{
+    color:#7B85AD;
+}
+
+/*v*/
+header
+{
+    border-bottom: solid 2px;
+}
+
+
+/*w*/
+.name
+{
+    text-align:right;
+    padding-bottom:10px;
+    font-style:italic;
+    font-size: 70%;
+    color: #7B85AD;
+}
+
+/*x*/
+footer > p
+{
+    color: white;
+    font-size:70%;
+    background-color: #7B85AD;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    border-radius: 5px;
+}
+
+/*y*/
+.box1
+{
+    clear:both;/*To stop it from wrapping around image*/
+    border:1px;
+    border-style:dashed;
+    border-color: #172457;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:5px;
+}

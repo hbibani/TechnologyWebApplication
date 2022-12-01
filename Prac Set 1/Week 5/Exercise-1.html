@@ -1,0 +1,154 @@
+<!-- Heja Bibani
+Student ID: 16301173
+Class: Tues 4:00 pm
+-->
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercise 2 Form </title>
+    <link rel="stylesheet" href="NewPatient.css">
+        <script src="formValidation.js"></script>
+</head>
+
+<body>
+    <form action="https://twaaut.cdms.westernsydney.edu.au/twainfo/form.asp" method="post" onsubmit="return formValid(this)">
+        <h2>NEW PATIENT REGISTRATION FORM </h2>
+        <em class="req">* required field</em>
+        <br>
+    <div class="row">
+        <section  class="section1">
+          <h4> PERSONAL DETAILS</h4>
+            <div>
+                <label for="title"><span class="req">*</span>Title: </label>
+                <select name="title" id="title" onblur="vInput(this)" tabindex="1">
+                    <option value="" selected disabled>Select Title</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Dr">Master</option>
+                    <option value="Prof">Doctor</option>
+                    <option value="other">Other</option>
+                </select>
+                <span class="error" id="titleInv">Required: a title must be chosen</span>
+            </div>
+            <div id="otherTitle">
+              <label for="titleOther"><span class="req">*</span>Other:</label>
+                <input type="text" id="titleOther" name="titleOther"  onblur="vInput(this)"  placeholder ="Title" tabindex="4">
+              <span class="error" id="titleOtherInv">Required: title must be chosen</span>
+            </div>
+            <div>
+                <label for="fname"><span class="req">*</span>First Name:</label>
+                <input type="text" id="fname" name="fname"  onblur="vInput(this)"  placeholder ="Name" tabindex="4">
+                <span class="error" id="fnameInv"> Required: Must enter a valid name</span>
+            </div>
+            <div>
+                <label for="lname"><span class="req">*</span>Last Name:</label>
+                <input type="text" id="lname" name="lname" onblur="vInput(this)"  placeholder ="Last Name" tabindex="5">
+                <span class="error" id="lnameInv">Required: Must enter a valid last name</span>
+            </div>
+            <div>
+                <label for="dob"><span class="req">*</span>Date of Birth:</label>
+                <input type="date" name="dob" id="dob" onblur="vInput(this)" tabindex="6">
+                <span class="error" id="dobInv">Required: Must specify date of birth</span>
+            </div>
+            <div id = "onePhone">
+                <span class="req">*</span><span class = "errorOnePhone" id="atLeastOneNumber">Please enter at least one number</span>
+                <br>
+            </div>
+            <div>
+              <label for="perPhone"> Mobile Number:</label>
+              <input type="text" id="perPhone" name="perPhone" onblur="vInput(this)" placeholder="04########" tabindex="7">
+                <span class="error" id="perPhoneInv">Please enter a valid mobile number starting with 04</span>
+            </div>
+            <div>
+              <label for="wPhone"> Work Number:</label>
+              <input type="text" id="wPhone"  name="wPhone" onblur="vInput(this)" placeholder="##########" tabindex="8">
+              <span class="error" id="wPhoneInv">Must enter a 8 or 10 digit number </span>
+            </div>
+            <div>
+              <label for="dayPhone"> Daytime Phone:</label>
+              <input type="text" id="dayPhone" name="dayPhone" onblur="vInput(this)" placeholder="##########" tabindex="9">
+              <span class="error" id="dayPhoneInv"> Must enter a 8 or 10 digit number </span>
+            </div>
+            <div>
+              <label for="address"> Postal Address:</label>
+              <input type="text" id="address" name="address" onblur="vInput(this)" placeholder="1234 Com Rd" tabindex="10">
+                <span class="error" id="addressInv"> Must enter a valid Address </span>
+            </div>
+            <div>
+              <label for="suburb"> Suburb:</label>
+              <input type="text" id="suburb" name="suburb" onblur="vInput(this)" placeholder="Sydney" tabindex="12">
+              <span class ="error" id="suburbInv"> Must enter valid Suburb</span>
+            </div>
+            <div>
+              <label for="postCode"> Post Code:</label>
+              <input type="text" id="postCode" name="postCode" onblur="vInput(this)" placeholder="2111" tabindex="13">
+              <span class="error" id="postCodeInv"> Must Enter valid postcode</span>
+            </div>
+            <div>
+              <label for="email"> Email:</label>
+              <input type="text" id="email" name="email" onblur="vInput(this)" placeholder="Email"  tabindex="15">
+              <span class="error" id="emailInv"> Must enter valid email address</span>
+            </div>
+      </section>
+      <section class="section1">
+          <h4>EMERGENCY CONTACT</h4>
+          <div>
+              <label for="emName"> Emergency Contact:</label>
+              <input type="text" id="emName" onblur="vInput(this)" name="emName" placeholder ="Name" tabindex="16">
+              <span class="error" id="emNameInv"> Please enter a valid name</span>
+          </div>
+          <div>
+            <label for="emRel"> Relationship:</label>
+            <input type="text" id="emRel" name="emRel" placeholder ="Brother" tabindex="17">
+          </div>
+          <div>
+            <label for="emMobPhone"> Mobile Number:</label>
+            <input type="text" id="emMobPhone" onblur="vInput(this)" name="emMobPhone" placeholder="04########" tabindex="18">
+            <span class="error" id="emMobPhoneInv"> Please enter a valid mobile number starting with 04</span>
+          </div>
+          <div>
+            <label for="emDayPhone"> Daytime Phone:</label>
+            <input type="text" id="emDayPhone" name="emDayPhone" onblur="vInput(this)" placeholder="##########" tabindex="19">
+            <span class="error" id="emDayPhoneInv"> Must enter a 8 or 10 digit number</span>
+          </div>
+          <br>
+          <h4>NEXT OF KIN</h4>
+          <div id="asAbove">
+            <input type="checkbox"  onchange="vInput(this)" id ="asAboveYes" value="asAboveYes"  name="asaboveKin" tabindex="20">
+            <label for="asAboveYes" > As above</label><br>
+          </div>
+          <div id="nextOfKin">
+            <div>
+                <label for="kinName"> Next of kin:</label>
+                <input type="text" id="kinName" onblur="vInput(this)" name="kinName" placeholder ="Name" tabindex="21">
+                <span class="error" id="kinNameInv"> Please enter a valid name</span>
+            </div>
+            <div>
+              <label for="kinRel"> Relationship:</label>
+              <input type="text" id="kinRel" name="kinRel" placeholder ="Brother" tabindex="22">
+            </div>
+            <div>
+              <label for="kinMobPhone"> Mobile Number:</label>
+              <input type="text" id="kinMobPhone" onblur="vInput(this)" name="kinMobPhone" placeholder="04########" tabindex="23">
+              <span class="error" id="kinMobPhoneInv">Please enter a valid mobile number starting with 04</span>
+            </div>
+            <div>
+              <label for="kinDayPhone"> Daytime Phone:</label>
+              <input type="text" id="kinDayPhone" name="kinDayPhone" onblur="vInput(this)" placeholder="##########" tabindex="24">
+              <span class="error" id="kinDayPhoneInv"> Must enter a 8 or 10 digit number</span>
+            </div>
+          </div>
+          <div>
+              <input type="submit" value="Submit" name="submit" tabindex="25">
+          </div>
+      </section>
+      <br>
+      <br>
+    </div>
+    </form>
+  </body>
+  </html>

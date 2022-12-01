@@ -1,0 +1,42 @@
+body {
+    margin:10px;
+    padding:0;
+    font-family: Arial;
+    font-size:1em;
+    background-color:#ffffff;
+    color:#000000;
+}
+
+form {
+    margin:10px;
+}
+
+input[type="text"], select {
+    width:250px;
+    padding:3px;
+    font-size:1em;
+}
+
+input[type="submit"] {
+    padding:3px;
+    font-size:1em;
+}
+
+label {
+    display:inline-block;
+    width:150px;
+}
+
+table {
+    border-collapse: collapse;
+    margin:10px;
+}
+
+table, th, td {
+    border: black solid 1px;
+    padding:3px;
+}
+
+.errorMsg {
+    color: #FF0000;
+}

@@ -1,0 +1,429 @@
+*
+{
+  text-decoration: none;
+}
+
+
+li > a:link, li > a:visited
+{
+
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li > a:hover
+{
+    color:#7B84AD;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+
+#listNumbers
+{
+  text-align:center;
+
+}
+
+a:hover
+{
+    color:#7B84AD;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+
+#usernamedisplay
+{
+  font-size: 20px;
+  color:black;
+  background-color:#7B84AD;
+  display:inline-block;
+  opacity:0.94;
+  border-radius:10px;
+}
+
+#displayuser
+{
+    font-size: 15px;
+}
+
+.youtube
+{
+	float:left;
+	display:block;
+
+
+}
+
+html
+{
+  display:block;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom:25px;
+}
+
+button
+{
+  cursor: pointer;
+}
+
+body
+{
+  background-color: #F3FFF3;
+  background-image: url("img/musicback.jpg");
+  background-color: #cccccc;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+
+.wrapper-main
+{
+  width: auto;
+  margin: 0 auto;
+}
+
+.req
+{
+  color: #a30101;
+  font-size: 0.65em;
+}
+
+
+header
+{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  background-color: black;
+  opacity:0.95;
+}
+
+.nav-header-main
+{
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px;
+  font-weight: 600;
+}
+
+
+label
+{
+  display:inline-block;
+  padding: 10px;
+}
+
+input
+{
+  border-radius:5px;
+}
+
+.nav-header-main img
+{
+  height: 100%;
+}
+
+.nav-header-main ul
+{
+  height: 100%;
+}
+
+.nav-header-main ul li
+{
+  list-style: none;
+  float: left;
+  height: 100%;
+}
+
+.tableflex
+{
+   overflow-x:auto;
+   overflow-y:auto;
+   display:block;
+   height:800px;
+}
+
+.tableflex2
+{
+   display:block;
+}
+
+.nav-header-main a
+{
+  height: 100%;
+  padding: 0 10px;
+  font-size:1.5em;
+
+}
+
+.header-login
+{
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-header-main  form
+{
+    height: 100%;
+    float:right;
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    border-radius: 4px
+
+}
+
+.logoutbutton form button {
+   height: 100%;
+   padding: 0 10px;
+   border: none;
+   border-radius: 4px;
+   background-color: #333;
+   font-family: arial;
+   font-size: 13px;
+   color: #FFF;
+   text-transform: uppercase;
+   text-align: center;
+   padding: 8px 8px;
+   margin:55px;
+}
+
+.logoutbutton form button:hover
+{
+   background-color: #585858;
+}
+
+.form-signup
+{
+	float:right;
+}
+
+form
+{
+  display:inline-block;
+}
+
+main
+{
+  padding-top: 20px;
+  position:static;
+  display:block;
+}
+
+.section-default
+{
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  background-color:#fcdf03;
+  display:inline-block;
+  opacity: 0.92;
+}
+
+.login-status
+{
+  text-align: center;
+  font-size: 26px;
+  font-family: arial;
+  color: black;
+}
+
+.error
+{
+  padding:10px 0px 10px 10px;
+  color:#a30101;
+  border-radius: 5px;
+  width: 95%;
+  margin-top:5px;
+  display:none;
+}
+
+#loginerror
+{
+  padding:10px 0px 10px 10px;
+  color:#a30101;
+  width: 95%;
+  margin-top:5px;
+}
+
+
+
+.entrymessage
+{
+  text-align: justify;
+  font-size: 12px;
+  font-family: arial;
+  color: white;
+  margin:20px;
+}
+
+h1,h2,h3,h4,h5
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+h1
+{
+  text-align: center;
+  font-size: 89px;
+  color: #111;
+  color:white;
+}
+
+h3
+{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+ table
+ {
+     border-collapse: collapse;
+     margin:10px;
+ }
+
+ table, th, td
+ {
+     border: black solid 1px;
+     padding:3px;
+     color: black;
+ }
+
+ thead
+ {
+   background-color: #7db54a;
+ }
+
+table
+{
+  text-align: center;
+}
+
+table
+{
+  border-collapse: collapse;  width: 70%; margin: 0 auto 5rem;
+}
+
+th, td
+{
+  padding: 0.7rem; font-size: 0.7rem;
+}
+
+tr
+{
+ background: hsl(50, 50%, 80%);
+}
+
+tr, td
+{
+  transition: .4s ease-in;
+}
+
+tr:first-child
+{
+  background: hsla(12, 100%, 40%, 0.5);
+}
+
+tr:nth-child(even)
+{
+  background: hsla(50, 50%, 80%, 0.7);
+}
+
+td:empty
+{
+  background: hsla(50, 25%, 60%, 0.7);
+}
+
+
+input[type="submit"]:hover
+{
+	background: pink;
+}
+
+
+/* This input style was taken from the tutorials that were given to us */
+input[type="text"], input[type="password"],input[type="number"], input[type="submit"], input[type="date"], select
+{
+    height:20px;
+    font-size:1em;
+    padding:4px;
+    width:20%;
+    border:1px solid #ccc;
+    display:inline-block;
+}
+
+
+/* This input style was taken from the tutorials that were given to us; a little bit mixed */
+ input[type="submit"]
+{
+    padding:10px;
+    height:inherit;
+    background-color:#7B84AD;
+    width:20%;
+    padding-top:10px;
+    display:inline-block;
+    margin:10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+ }
+
+ /* This input style was taken from the tutorials that were given to us */
+ @media screen and (min-width:420px)
+ {
+     input[type="text"], input[type="password"], input[type="number"], input[type="submit"], input[type="date"], select
+    {
+         width:200px;
+     }
+
+     textarea
+     {
+       width:auto;
+     }
+
+     label
+     {
+         width:150px;
+     }
+     .radioAndCheckBoxLabel
+     {
+         width:inherit;
+     }
+
+     .error
+     {
+         width:inherit;
+         margin:0;
+         padding:11px;
+     }
+ }

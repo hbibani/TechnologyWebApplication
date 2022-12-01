@@ -1,0 +1,120 @@
+ /* Heja Bibani
+Student ID: 16301173
+Class: Tues 4:00 pm */
+
+
+* {
+    padding:0;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+#otherTitle
+{
+  display:none;
+}
+
+.error
+{
+  padding:10px 0px 10px 10px;
+  color:#a30101;
+  border-radius: 5px;
+  width: 95%;
+  margin-top:5px;
+  display:none;
+  border:1px solid #ff0000;
+  background-color:#ffe2e2
+}
+
+#onePhone
+{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#atLeastOneNumber
+{
+  padding:10px 5px 10px 10px;
+  border-radius: 5px;
+  width: 95%;
+  margin-top:5px;
+  margin-left:5px;
+  color: #a30101;
+  font-style:italic;
+}
+
+.req
+{
+    color: #a30101;
+    font-size: 0.95em;
+}
+
+.section1
+{
+ display:block;
+ float: left;
+ padding-right: 30px;
+}
+
+form {
+    padding:20px;
+}
+
+form div {
+    margin-top:10px;
+}
+
+label {
+    display:inline-block;
+    width:150px;
+}
+
+input {
+    border-radius:5px;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="text"], input[type="number"], input[type="submit"], input[type="date"], select {
+    height:25px;
+    font-size:1em;
+    padding:4px;
+    width:95%;
+    border:1px solid #ccc;
+}
+
+ input[type="submit"] {
+    padding:10px;
+    height:inherit;
+    background-color:#7db54a;
+    width:100%;
+ }
+
+select {
+    height:33px;
+}
+
+@media screen and (min-width:420px) {
+    input[type="text"], input[type="number"], input[type="submit"], input[type="date"], select {
+        width:200px;
+    }
+
+    label
+    {
+        width:150px;
+    }
+    .radioAndCheckBoxLabel {
+        width:inherit;
+    }
+
+    .error {
+        width:inherit;
+        margin:0;
+        padding:11px;
+    }
+
+}
